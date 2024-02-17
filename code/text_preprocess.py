@@ -1,25 +1,21 @@
 
-
-
 import json
 import time
 import os
+import csv
 
 if __name__ == "__main__":
-    en_corpus_train = open(os.getcwd() + "/../data/train/en.txt", "a")
-    ko_corpus_train = open(os.getcwd() + "/../data/train/ko.txt", "a")
+    en_corpus_train = open(os.getcwd() + "/../data/train/en.txt", "w")
+    ko_corpus_train = open(os.getcwd() + "/../data/train/ko.txt", "w")
+    en_corpus_valid = open(os.getcwd() + "/../data/valid/en.txt", "w")
+    ko_corpus_valid = open(os.getcwd() + "/../data/valid/ko.txt", "w")
 
-    en_corpus_valid = open(os.getcwd() + "/../data/valid/en.txt", "a")
-    ko_corpus_valid = open(os.getcwd() + "/../data/valid/ko.txt", "a")
-
+    # JSON
     train_json = open(os.getcwd() + "/../data/raw/json/keat-nia/development.json", 'r')
     valid_json = open(os.getcwd() + "/../data/raw/json/keat-nia/evaluation.json", 'r')
 
     train_articles = json.loads(train_json.read())
     valid_articles = json.loads(valid_json.read())
-
-    train_json.close()
-    valid_json.close()
 
     for article in train_articles:
         sentences = article["text"]
@@ -39,11 +35,12 @@ if __name__ == "__main__":
             en_corpus_valid.write(en_translation + '\n')
             ko_corpus_valid.write(ko_translation + '\n')
 
-    en_corpus_valid.close()
-    ko_corpus_valid.close()
+    train_json.close()
+    valid_json.close()
 
-    en_files = []
-    ko_files = []
+    # TEXT
+    en_texts = []
+    ko_texts = []
 
     text_folders = os.getcwd() + "/../data/raw/text"
     for text_folder in os.listdir(text_folders):
@@ -51,23 +48,33 @@ if __name__ == "__main__":
         for text_file in os.listdir(text_folder):
             text_file = text_folder + '/' + text_file
             if ".en" in text_file:
-                en_files.append(text_file)
+                en_texts.append(text_file)
             elif ".ko" in text_file:
-                ko_files.append(text_file)
+                ko_texts.append(text_file)
 
-    for en_file, ko_file in zip(sorted(en_files), sorted(ko_files)):
-        en_file = open(en_file, 'r')
-        ko_file = open(ko_file, 'r')
+    for en_text, ko_text in zip(sorted(en_texts), sorted(ko_texts)):
+        en_text = open(en_text, 'r')
+        ko_text = open(ko_text, 'r')
 
-        for en_sentence, ko_sentence in zip(en_file, ko_file):
+        for en_sentence, ko_sentence in zip(en_text, ko_text):
             en_corpus_train.write(en_sentence)
             ko_corpus_train.write(ko_sentence)
 
-        en_file.close()
-        ko_file.close()
+        en_text.close()
+        ko_text.close()
+
+    # CSV 
+    en_ko_csv = open(os.getcwd() + "/../data/raw/csv/keat-nia/corpus.csv", 'r')
+    en_ko_csv.readline()
+
+    records = csv.reader(en_ko_csv)
+    for ko_sentence, en_sentence in records:
+        ko_corpus_train.write(ko_sentence.rstrip() + '\n')
+        en_corpus_train.write(en_sentence.rstrip() + '\n')
+    en_ko_csv.close()
 
     en_corpus_train.close()
     ko_corpus_train.close()
-
-
+    en_corpus_valid.close()
+    ko_corpus_valid.close()
 
