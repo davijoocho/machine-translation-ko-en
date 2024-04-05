@@ -60,3 +60,76 @@ SENTENCE: 안녕하세요 제 이름은 최다윗 입니다.
 2024-04-02 13:04:54.086874: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
 TRANSLATION: hello, my name is john.
 SAVED CHECKPOINT @ EPOCH 6
+EPOCH 7 COMPLETED @ 08:51 PM
+SENTENCE: 안녕하세요 제 이름은 최다윗 입니다.
+2024-04-02 20:52:07.087009: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 3672914 of -2
+2024-04-02 20:52:07.116630: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4016597 of -2
+2024-04-02 20:52:07.172558: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 2639951 of -2
+2024-04-02 20:52:08.132278: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+2024-04-02 20:52:08.544212: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+2024-04-02 20:52:09.612668: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+TRANSLATION: hello, my name is john.
+SAVED CHECKPOINT @ EPOCH 7
+EPOCH 8 COMPLETED @ 04:39 AM
+SENTENCE: 안녕하세요 제 이름은 최다윗 입니다.
+2024-04-03 04:39:22.882051: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4347176 of -2
+2024-04-03 04:39:22.896036: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 3269544 of -2
+2024-04-03 04:39:23.530889: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+2024-04-03 04:39:24.429997: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+TRANSLATION: hello, my name is john.
+SAVED CHECKPOINT @ EPOCH 8
+EPOCH 9 COMPLETED @ 12:26 PM
+SENTENCE: 안녕하세요 제 이름은 최다윗 입니다.
+2024-04-03 12:27:02.719997: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4426722 of -2
+2024-04-03 12:27:03.236302: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+TRANSLATION: hello, my name is david.
+SAVED CHECKPOINT @ EPOCH 9
+2024-04-03 12:28:08.772841: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4289044 of -2
+2024-04-03 12:28:09.459411: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+EPOCH 10 COMPLETED @ 08:14 PM
+SENTENCE: 안녕하세요 제 이름은 최다윗 입니다.
+2024-04-03 20:14:38.849525: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4053032 of -2
+2024-04-03 20:14:39.806348: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+TRANSLATION: hello, my name is david.
+SAVED CHECKPOINT @ EPOCH 10
+2024-04-03 20:15:51.891987: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4454539 of -2
+2024-04-03 20:15:52.428207: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+EPOCH 11 COMPLETED @ 04:02 AM
+SENTENCE: 안녕하세요 제 이름은 최다윗 입니다.
+2024-04-04 04:02:20.641551: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4146408 of -2
+2024-04-04 04:02:20.648210: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4487651 of -2
+2024-04-04 04:02:21.108923: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+2024-04-04 04:02:21.327290: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+TRANSLATION: hello, my name is david.
+SAVED CHECKPOINT @ EPOCH 11
+EPOCH 12 COMPLETED @ 11:50 AM
+SENTENCE: 안녕하세요 제 이름은 최다윗 입니다.
+2024-04-04 11:50:13.034646: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 3493149 of -2
+2024-04-04 11:50:14.705956: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+TRANSLATION: hello, my name is david.
+SAVED CHECKPOINT @ EPOCH 12
+EPOCH 13 COMPLETED @ 07:38 PM
+SENTENCE: 안녕하세요 제 이름은 최다윗 입니다.
+2024-04-04 19:38:40.026723: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4732613 of -2
+2024-04-04 19:38:40.261269: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+TRANSLATION: hello, my name is david.
+SAVED CHECKPOINT @ EPOCH 13
+EPOCH 14 COMPLETED @ 03:26 AM
+SENTENCE: 안녕하세요 제 이름은 최다윗 입니다.
+2024-04-05 03:27:01.849972: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4045266 of -2
+2024-04-05 03:27:01.850713: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 4383763 of -2
+2024-04-05 03:27:02.461551: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+2024-04-05 03:27:03.023718: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+TRANSLATION: hello, my name is david.
+SAVED CHECKPOINT @ EPOCH 14
+EPOCH 15 COMPLETED @ 11:14 AM
+SENTENCE: 안녕하세요 제 이름은 최다윗 입니다.
+2024-04-05 11:15:06.172887: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 3656096 of -2
+2024-04-05 11:15:07.595430: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+TRANSLATION: hello, my name is david.
+SAVED CHECKPOINT @ EPOCH 15
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-c17: error: *** STEP 3073097.0 ON c17 CANCELLED AT 2024-04-05T13:06:20 DUE TO TIME LIMIT ***
+slurmstepd-c17: error: *** JOB 3073097 ON c17 CANCELLED AT 2024-04-05T13:06:20 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination
